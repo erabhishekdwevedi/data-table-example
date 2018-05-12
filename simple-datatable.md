@@ -36,78 +36,13 @@
 				<td>PhD</td>
 				<td>Delhi</td>
 			</tr>
-			<tr>
-				<td>Lawyer</td>
-				<td>Mr D</td>
-				<td>B.Law</td>
-				<td>Nashik</td>
-			</tr>
-			<tr>
-				<td>Doctor</td>
-				<td>Mr J</td>
-				<td>MBA</td>
-				<td>Russia</td>
-			</tr>
-			<tr>
-				<td>Director</td>
-				<td>Mr F</td>
-				<td>MBA</td>
-				<td>Mumbai</td>
-			</tr>
-				<tr>
-				<td>Doctor</td>
-				<td>Mr B</td>
-				<td>MBBS</td>
-				<td>Mumbai</td>
-			</tr>
-			<tr>
-				<td>Engineer</td>
-				<td>Mr C</td>
-				<td>PhD</td>
-				<td>Delhi</td>
-			</tr>
-			<tr>
-				<td>Lawyer</td>
-				<td>Mr D</td>
-				<td>B.Law</td>
-				<td>Nashik</td>
-			</tr>
-			<tr>
-				<td>Doctor</td>
-				<td>Mr J</td>
-				<td>MBA</td>
-				<td>Russia</td>
-			</tr>
-			<tr>
-				<td>Director</td>
-				<td>Mr F</td>
-				<td>MBA</td>
-				<td>Mumbai</td>
-			</tr>
-			<tr>
-				<td>Doctor</td>
-				<td>Mr B</td>
-				<td>MBBS</td>
-				<td>Mumbai</td>
-			</tr>
-			<tr>
-				<td>Engineer</td>
-				<td>Mr C</td>
-				<td>PhD</td>
-				<td>Delhi</td>
-			</tr>
-			<tr>
-				<td>Lawyer</td>
-				<td>Mr D</td>
-				<td>B.Law</td>
-				<td>Nashik</td>
-			</tr>
-			<tr>
-				<td>Doctor</td>
-				<td>Mr J</td>
-				<td>MBA</td>
-				<td>Russia</td>
-			</tr>
+		
+			<!--
+			
+			Copy paste set of <tr>  block atleast 10 more times to see pagination in action
+			
+			->
+			
 			<tr>
 				<td>Director</td>
 				<td>Mr F</td>
@@ -126,3 +61,21 @@
 </body>
 </html>
 ```
+
+
+## You can turn of various features like ordering or info or search etc.
+[Data Table Feature Reference ] (https://datatables.net/reference/option/)
+```
+
+ $('#my_table').DataTable({
+  		 
+	      "paging":   true,
+     	      "ordering": false,
+              "info":     false,
+               "searching": false,
+	       "scrollY" : 300
+	});
+
+```
+
+
