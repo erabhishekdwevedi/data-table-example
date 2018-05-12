@@ -50,3 +50,13 @@
 
 
 ```
+## If some fields in json response are broken or missing , you may see an error alert . you can suppress this by configuring errMode which is set to alert by default.
+
+* This will suppress the errors.
+```
+  $.fn.dataTable.ext.errMode = 'none';
+```
+* This throws a Javascript error instead of alert.
+```
+  $.fn.dataTable.ext.errMode = 'throws';
+```
