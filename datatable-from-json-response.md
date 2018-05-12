@@ -16,8 +16,7 @@
 
 <body>
 	<table id="json_table">
-	
-		 <thead>
+	 <thead>
             <tr>
                 <th>User Id</th>
                 <th>Id</th>
@@ -27,22 +26,21 @@
         </thead>
 	</table>
   
-  
 	<script type="text/javascript">
 		$(document).ready(function() {
 		
-    $('#json_table').DataTable( {
-        "ajax": {
-           			 "url": "https://jsonplaceholder.typicode.com/posts",
-           			 "dataSrc": ""
-        		},
+	              $('#json_table').DataTable( {
+      				  "ajax": {
+           				 "url": "https://jsonplaceholder.typicode.com/posts",
+           				 "dataSrc": ""
+        				},
       
-        "columns": [
-          			  { "data": "userId" },
-         		      { "data": "id" },
-        		      { "data": "title" },
-                      { "data": "body" }
-         		  ]
+       				 "columns": [
+          			 	 { "data": "userId" },
+         		     		 { "data": "id" },
+        		   	         { "data": "title" },
+                     			 { "data": "body" }
+         				  ]
   			  } );
 		} );
 	</script>
