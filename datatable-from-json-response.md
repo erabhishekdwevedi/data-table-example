@@ -1,4 +1,4 @@
-# Datatable with JSON response
+# Datatable From JSON response via AJAX Request
 * I am using ( https://jsonplaceholder.typicode.com/posts ) for sample JSON . _Thanks For Making this JSON Place Holder_
 * Just define the table headers and column in Data Table Requests.
 
